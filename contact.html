@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ارتباط با ما — علی باورچی</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="pattern-bg"></div>
+
+<div class="topbar">
+  <div>📅 انتخابات شورای اسلامی شهر تهران — ۱۴۰۵</div>
+  <div class="socials">
+    <a href="https://shahretoo.ir/c/%D8%B9%D9%84%DB%8C-%D8%A8%D8%A7%D9%88%D8%B1%DA%86%DB%8C-%D8%AA%D9%87%D8%B1%D8%A7%D9%86" target="_blank">شهرتو</a>
+    <a href="https://eitaa.com/AliBavarchee313" target="_blank">ایتا</a>
+    <a href="https://ble.ir/join/GTU5rDMv4d" target="_blank">بله</a>
+    <a href="https://web.rubika.ir/#c=c0D3w7e08c2d5c85d62e1d9cc9cc8ee8" target="_blank">روبیکا</a>
+    <a href="mailto:ali.bavarcci@gmail.com">ایمیل</a>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <img src="media/Ali_logo.png" alt="لوگوی علی باورچی" />
+      <span class="brand-text">
+        <b>علی باورچی</b>
+        <span>نامزد شورای اسلامی شهر تهران</span>
+      </span>
+    </a>
+    <button class="menu-toggle" onclick="document.getElementById('mainmenu').classList.toggle('open')">☰</button>
+    <nav>
+      <ul id="mainmenu">
+        <li><a href="index.html">خانه</a></li>
+        <li><a href="about.html">درباره من</a></li>
+        <li><a href="plans.html">برنامه‌ها</a></li>
+        <li><a href="vision.html">چشم‌انداز و میثاق</a></li>
+        <li><a href="gallery.html">گالری</a></li>
+        <li><a class="active" href="contact.html">ارتباط با ما</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <h1>ارتباط با ما</h1>
+  <p>برای پیشنهاد، انتقاد، همیاری داوطلبانه یا پیوستن به کمپین، از راه‌های زیر با ما در ارتباط باشید.</p>
+  <div class="breadcrumb"><a href="index.html">خانه</a> › ارتباط با ما</div>
+</section>
+
+<!-- راه‌های ارتباطی -->
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">راه‌های ارتباطی</span>
+      <h2>در کنار شما، همیشه</h2>
+      <p>صفحه رسمی من در سامانه شهرتو و پیام‌رسان‌های داخلی.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="ic">🗳️</div>
+        <h4>صفحه نامزد در شهرتو</h4>
+        <a href="https://shahretoo.ir/c/%D8%B9%D9%84%DB%8C-%D8%A8%D8%A7%D9%88%D8%B1%DA%86%DB%8C-%D8%AA%D9%87%D8%B1%D8%A7%D9%86" target="_blank">shahretoo.ir</a>
+      </div>
+      <div class="contact-card">
+        <div class="ic">📢</div>
+        <h4>ایتا</h4>
+        <a href="https://eitaa.com/AliBavarchee313" target="_blank">eitaa.com/AliBavarchee313</a>
+      </div>
+      <div class="contact-card">
+        <div class="ic">💬</div>
+        <h4>بله</h4>
+        <a href="https://ble.ir/join/GTU5rDMv4d" target="_blank">ble.ir/join/GTU5rDMv4d</a>
+      </div>
+      <div class="contact-card">
+        <div class="ic">🔷</div>
+        <h4>روبیکا</h4>
+        <a href="https://web.rubika.ir/#c=c0D3w7e08c2d5c85d62e1d9cc9cc8ee8" target="_blank">web.rubika.ir</a>
+      </div>
+      <div class="contact-card">
+        <div class="ic">✉️</div>
+        <h4>ایمیل</h4>
+        <a href="mailto:ali.bavarcci@gmail.com">ali.bavarcci@gmail.com</a>
+      </div>
+      <div class="contact-card">
+        <div class="ic">🏛️</div>
+        <h4>شورای اسلامی شهر تهران</h4>
+        <a href="https://shahretoo.ir" target="_blank">shahretoo.ir</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- فرم تماس -->
+<section style="background:#f4f8f8;">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">فرم تماس</span>
+      <h2>پیام خود را برای ما بفرستید</h2>
+      <p>پیشنهادها، انتقادها و ایده‌های شما برای تهران، سرمایه کمپین ماست.</p>
+    </div>
+
+    <form class="form-wrap" onsubmit="sendForm(event)">
+      <div class="form-row">
+        <div>
+          <label for="name">نام و نام خانوادگی *</label>
+          <input id="name" name="name" type="text" placeholder="مثال: علی محمدی" required />
+        </div>
+        <div>
+          <label for="phone">شماره تماس</label>
+          <input id="phone" name="phone" type="tel" placeholder="۰۹۱۲..." />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div>
+          <label for="email">ایمیل</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" />
+        </div>
+        <div>
+          <label for="subject">موضوع *</label>
+          <select id="subject" name="subject" required>
+            <option value="">— انتخاب کنید —</option>
+            <option>پیشنهاد برای برنامه‌ها</option>
+            <option>انتقاد سازنده</option>
+            <option>همیاری داوطلبانه در کمپین</option>
+            <option>مشکل یا نیاز محله</option>
+            <option>درخواست مصاحبه یا رسانه</option>
+            <option>سایر</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="message">متن پیام *</label>
+        <textarea id="message" name="message" placeholder="پیام خود را اینجا بنویسید..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-gold">📤 ارسال پیام</button>
+      <p class="form-note">با ارسال این فرم، با ثبت و بررسی پیام شما موافقت می‌کنید. اطلاعات شما محرمانه می‌ماند.</p>
+    </form>
+  </div>
+</section>
+
+<!-- دعوت به همیاری -->
+<section>
+  <div class="wrap">
+    <div class="pact">
+      <h2>به کمپین ما بپیوندید</h2>
+      <ul>
+        <li>در محله خود نماینده کمپین شوید.</li>
+        <li>در نشست‌های عمومی گزارش‌دهی ماهانه شرکت کنید.</li>
+        <li>ایده‌ها و نیازهای محله خود را برای ما بفرستید.</li>
+        <li>ما را در پیام‌رسان‌های داخلی دنبال کنید.</li>
+        <li>در روز انتخابات، دیگران را به مشارکت تشویق کنید.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="final-banner">
+  <h2>صدای شما، صدای تهران است.</h2>
+  <p>با هم، تهران را برای همه تهرانی‌ها می‌سازیم.</p>
+</div>
+
+<footer>
+  <div class="foot-inner">
+    <div>
+      <div class="foot-logos">
+        <img src="media/Ali_logo.png" alt="لوگو" />
+        <img src="media/Ali_newnew_logo.png" alt="لوگو" />
+      </div>
+      <h4>علی باورچی</h4>
+      <p style="font-size:.85rem;line-height:1.9;">
+        نامزد شورای اسلامی شهر تهران — ۱۴۰۵<br/>
+
+      </p>
+    </div>
+    <div>
+      <h4>دسترسی سریع</h4>
+      <a href="index.html">خانه</a>
+      <a href="about.html">درباره من</a>
+      <a href="plans.html">برنامه‌ها</a>
+      <a href="vision.html">چشم‌انداز و میثاق</a>
+      <a href="gallery.html">گالری</a>
+      <a href="contact.html">ارتباط با ما</a>
+    </div>
+    <div>
+      <h4>پیام‌رسان‌ها</h4>
+      <a href="https://eitaa.com/AliBavarchee313" target="_blank">ایتا</a>
+      <a href="https://ble.ir/join/GTU5rDMv4d" target="_blank">بله</a>
+      <a href="https://web.rubika.ir/#c=c0D3w7e08c2d5c85d62e1d9cc9cc8ee8" target="_blank">روبیکا</a>
+      <a href="mailto:ali.bavarcci@gmail.com">ali.bavarcci@gmail.com</a>
+    </div>
+    <div>
+      <h4>نمادها</h4>
+      <div class="foot-logos" style="flex-direction:column;align-items:flex-start;gap:.6rem;">
+        <img src="media/Islamic-City-Council-of-Tehran.png" alt="شورای شهر تهران" />
+        <img src="media/Minab_memorial_logo.jpg" alt="یادمان میناب" />
+      </div>
+    </div>
+  </div>
+  <div class="foot-bottom">© ۱۴۰۵ — علی باورچی | تمامی حقوق محفوظ است.</div>
+</footer>
+
+<script>
+document.querySelectorAll('#mainmenu a').forEach(a=>{
+  a.addEventListener('click',()=>document.getElementById('mainmenu').classList.remove('open'));
+});
+
+function sendForm(e){
+  e.preventDefault();
+  const name = document.getElementById('name').value.trim();
+  const subject = document.getElementById('subject').value;
+  const message = document.getElementById('message').value.trim();
+
+  // ارسال به ایمیل به‌صورت mailto (بدون بک‌اند)
+  const body = `نام: ${name}%0Aموضوع: ${subject}%0A%0A${message}`;
+  const mailto = `mailto:ali.bavarcci@gmail.com?subject=${encodeURIComponent('پیام از سایت — ' + subject)}&body=${body}`;
+  window.location.href = mailto;
+}
+</script>
+</body>
+</html>
